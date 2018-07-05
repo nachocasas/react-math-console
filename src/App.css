@@ -1,0 +1,45 @@
+html,
+body{
+  height: 100%;
+  background: #000;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.log-box {
+  height: 90vh;
+  overflow-y: auto;
+  background: #000;
+  color: #fff;
+  font-family: monospace;
+}
+
+.log-box ul {
+  list-style-type: none;
+}
+
+.log-box ul li {
+  margin: 5px 0;
+}
+
+.log-box .error {
+  color:#d6363a;
+}
+
+.form-container input {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  padding: 5px;
+  height:30px;
+  border:0;
+  font-family: monospace;
+  font-size: 16px;
+  background: #000;
+  color: green;
+  outline: 0;
+}
