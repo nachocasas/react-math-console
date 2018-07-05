@@ -1,8 +1,9 @@
-#React Math Console
+
+# React Math Console
 
 This is a challenge for Neginet
 
-##How to install:
+## How to install:
 
 - Clone the repository
 - `cd` into the directory of the cloned project
